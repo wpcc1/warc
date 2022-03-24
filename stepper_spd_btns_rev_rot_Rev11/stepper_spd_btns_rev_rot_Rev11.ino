@@ -15,11 +15,12 @@
 /*
  *https://www.warc.asn.au/2021/09/17/basic-magnetic-loop-tuner/
  *https://www.pololu.com/product/1182
+ *https://github.com/laurb9/StepperDriver   for stepper driver
  */
  */
 #include <Arduino.h>
 #include <LedControl.h>
-#include "A4988.h"
+#include "A4988.h"    // https://github.com/laurb9/StepperDriver/tree/master/src
 
 //Define pins
 #define CLK 2         // Binary Encoder Clock
